@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="app.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <input  type="text" id="total" placeholder="Prix Total ="><br>
+    <img  src="https://img.icons8.com/android/2x/like.png">
+        <button>X</button>
+    <section class="size1">
+        <div>
+            <img src="https://kickz.akamaized.net/fr/media/images/p/600/JORDAN_WHY_NOT_ZER0_4-WHITE_MULTI_COLOR_MULTI_COLOR-2.jpg">
+           <div class="size2">
+                <p>JORDAN WHY NOT ZER0.4</p>
+                <p>140 €</p> 
+           </div>
+            
+        </div>
+        
+        <div class="var1">
+            <button onclick="decrease('inp1','price1',140,'total')">-</button>
+           <input type="text" id="inp1" placeholder="0">
+            <button onclick="increase('inp1','price1',140,'total')">+</button>
+            
+    
+        </div>
+        <div class="prix">
+           <input type ="text" id="price1" placeholder="Prix">
+        </div>
+        
+    </section>
+    <section class="size1">
+        <div>
+            <img src="https://kickz.akamaized.net/fr/media/images/p/600/jordan-M_J_JUMPMAN_HOLIDAY_PO-Black-1.jpg">
+            <div class="size2">
+                <p>M J JUMPMAN HOLIDAY PO</p>
+                <p>80 €</p>
+            </div>
+            
+        </div>
+        <div class="var1">
+            <button onclick="decrease('inp2','price2',80,'total')">-</button>
+           <input type="text" id="inp2" placeholder="0">
+            <button onclick="increase('inp2','price2',80,'total')">+</button>
+        </div>
+        <div class="prix">
+            <input id="price2" placeholder="Prix">
+        </div>
+    </section>
+    <section class="size1">
+        <div>
+            <img src="https://kickz.akamaized.net/fr/media/images/p/600/jordan-M_J_JUMPMAN_AIR_SHORT-GYM_RED_BLACK_BLACK-1.jpg">
+            <div class="size2">
+                <p>JUMPMAN AIR SHORT</p>
+                <p>45 €</p>
+            </div>
+        </div>
+        <div class="var1">
+            <button onclick="decrease('inp3','price3',45,'total')">-</button>
+            <input type="text" id="inp3" placeholder="0">
+             <button onclick="increase('inp3','price3',45,'total')">+</button>
+            
+        </div>
+        <div class="prix">
+            <input id="price3" placeholder="Prix">
+        </div>
+    </section>
+    
+</body>
+</html>
